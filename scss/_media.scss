@@ -3,6 +3,39 @@
     @content;
   }
 }
+
+
+
 @media screen and (max-width: 992px) {
-  
+
+  .header-nav {
+    padding: 15px 18px 15px 15px;
+
+    .container {
+      .header-navigation {
+        ul {
+          display: none;
+        }
+      }
+
+      .right-nav-bar {
+        display: none;
+      }
+
+
+      .menu-button {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-nav {
+    .container {
+      .menu {
+        display: none;
+      }
+    }
+  }
 }
