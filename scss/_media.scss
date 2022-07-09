@@ -5,13 +5,125 @@
 }
 
 
+@media screen and (max-width: 1243px) {
+
+  .main-banner {
+    .container {
+
+
+      .article-main-banner {
+        max-width: 500px;
+
+        article {
+          h1 {
+            font-size: 50px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1108px) {
+  .main-banner {
+    .container {
+      .article-main-banner {
+        max-width: 400px;
+
+        article {
+          h1 {
+            font-size: 40px;
+            line-height: 59px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .main-banner {
+    .container {
+      .article-main-banner {
+        max-width: 400px;
+
+        article {
+          h1 {
+            font-size: 40px;
+            line-height: 59px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
 
 @media screen and (max-width: 992px) {
+
+
+  .main-banner {
+
+    
+    
+    .container {
+      padding-right: 56px;
+      align-items: center;
+      height: 100vh;
+      .article-main-banner {
+        max-width: 588px;
+        
+        article {
+          h1 {
+              color: white;
+              font-size: 58px;
+            }
+          
+            p {
+              color: white;
+              font-size: 16px;
+            }
+            .btn-main-banner {
+              color: white;
+              border: 1px solid white;
+            }
+        }
+      }
+      flex-wrap: wrap;
+      background-color: transparent;
+      background-image: url(../images/iphones-background.png);
+      background-size: cover;
+
+
+      .banner-iphone-pic {
+        display: none;
+      }
+
+    }
+  }
 
   .header-nav {
     padding: 15px 18px 15px 15px;
 
     .container {
+
+    
+
       .header-navigation {
         ul {
           display: none;
