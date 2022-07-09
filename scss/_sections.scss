@@ -1,0 +1,67 @@
+.main-banner {
+
+  height: 100vh;
+  .container {
+
+    padding-top: 44px;
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .article-main-banner {
+    max-width: 588px;
+    margin-top: 145px;
+    margin-left: 56px;
+
+    h1 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+      margin-bottom: 19px;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 55px;
+    }
+
+    .btn-main-banner {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      width: 170px;
+      padding: 14px 53px;
+      box-sizing: border-box;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      display: inline-block;
+      margin-bottom: 127px;
+    }
+  }
+
+  .banner-iphone-pic {
+    position: absolute;
+    bottom: 0;
+    right: 94px;
+    display: inline-block;
+    img {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+}
