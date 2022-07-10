@@ -98,6 +98,7 @@
 .first-card .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .first-card .container .col-3 {
@@ -115,7 +116,7 @@
   left: 0;
 }
 
-.first-card .container .col-3 h3 {
+.first-card .container .col-3 > h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -125,8 +126,8 @@
   color: #000000;
 }
 
-.first-card .container .col-3 p {
-  font-family: 'Readex Pro',sans-serif;
+.first-card .container .col-3 > p {
+  font-family: 'Readex Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -176,7 +177,11 @@
   margin-bottom: 42px;
 }
 
-.first-card .container .col-2 .iphone-img-card-three > img {
+.first-card .container .col-2 .iphone-img-card-three .responsive {
+  display: none;
+}
+
+.first-card .container .col-2 .iphone-img-card-three img {
   width: 100%;
   display: inline-block;
 }
@@ -478,6 +483,39 @@ body {
   }
   .main-banner .container .article-main-banner article p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .first-card .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-card .container .card-nub-one {
+    margin-bottom: -35px;
+  }
+  .first-card .container .col-1 {
+    margin-bottom: 20px;
+  }
+  .first-card .container .col-2 {
+    margin-bottom: 20px;
+    max-width: 588px;
+  }
+  .first-card .container .col-2 .iphone-img-card-three {
+    display: inline-block;
+    max-width: 405px;
+    margin-bottom: 42px;
+  }
+  .first-card .container .col-2 .iphone-img-card-three .non-responsive {
+    display: none;
+  }
+  .first-card .container .col-2 .iphone-img-card-three .responsive {
+    display: block;
+  }
+  .first-card .container .col-2 .iphone-img-card-three img {
+    width: 100%;
+    display: inline-block;
+    background-size: inherit;
   }
 }
 

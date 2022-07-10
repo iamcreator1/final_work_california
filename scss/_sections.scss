@@ -114,92 +114,104 @@
   .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    
 
 
-    .col-3 {
 
-      .link {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
+      .col-3 {
 
-      width: 312px;
-      background-color: #FFFFFF;
-      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
-      padding: 114px 0 0;
+        .link {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        }
 
-      h3 {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: #000000;
-      }
+        width: 312px;
+        background-color: #FFFFFF;
+        filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+        padding: 114px 0 0;
 
-      p {
-        font-family: 'Readex Pro',sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 38px;
-        text-align: center;
-        color: #000000;
-        margin-bottom: 42px;
-      }
+        >h3 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #000000;
+        }
 
-    }
+        >p {
+          font-family: 'Readex Pro', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 38px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 42px;
+        }
 
-
-    .col-2 {
-
-      .link {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-      background-color: #FFFFFF;
-      width: 312px;
-      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
-      padding: 114px 0 0 16px;
-
-      h3 {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 19px;
-        text-align: center;
-        color: #000000;
-      }
-
-      p {
-        font-family: 'Readex Pro', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 38px;
-        text-align: center;
-        color: #000000;
       }
 
 
-      .iphone-img-card-three {
-        max-width: 405px;
-        margin-bottom: 42px;
+      .col-2 {
+        
+        
 
-        >img {
-          width: 100%;
-          display: inline-block;
+        .link {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        }
+
+        background-color: #FFFFFF;
+        width: 312px;
+        filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+        padding: 114px 0 0 16px;
+
+        h3 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 19px;
+          text-align: center;
+          color: #000000;
+        }
+
+        p {
+          font-family: 'Readex Pro', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 38px;
+          text-align: center;
+          color: #000000;
+        }
+
+
+        .iphone-img-card-three {
+          max-width: 405px;
+          margin-bottom: 42px;
+          .responsive {
+            display: none;
+          }
+
+          img {
+            
+            width: 100%;
+            display: inline-block;
+          }
         }
       }
-    }
+    
 
 
 
@@ -313,5 +325,3 @@
 
 
 // ? section shop cards
-
-
