@@ -1,23 +1,25 @@
 .main-banner {
   padding: 0 10px;
-  height: 100vh;
+  height: 80vh;
+  margin-bottom: 28px;
 }
 
-.main-banner .container {
+.main-banner .container .wrapper-for-carousel .block-nub-one {
   border-radius: 32px;
   display: flex;
   background-color: #DCE5E2;
   justify-content: space-between;
   position: relative;
+  justify-content: space-between;
 }
 
-.main-banner .container .article-main-banner {
+.main-banner .container .wrapper-for-carousel .block-nub-one .article-main-banner {
   max-width: 588px;
   margin-top: 145px;
   margin-left: 56px;
 }
 
-.main-banner .container .article-main-banner h1 {
+.main-banner .container .wrapper-for-carousel .block-nub-one .article-main-banner h1 {
   font-family: 'Readex Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -27,7 +29,7 @@
   margin-bottom: 19px;
 }
 
-.main-banner .container .article-main-banner p {
+.main-banner .container .wrapper-for-carousel .block-nub-one .article-main-banner p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +39,7 @@
   margin-bottom: 55px;
 }
 
-.main-banner .container .article-main-banner .btn-main-banner {
+.main-banner .container .wrapper-for-carousel .block-nub-one .article-main-banner .btn-main-banner {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -54,16 +56,225 @@
   margin-bottom: 127px;
 }
 
-.main-banner .container .banner-iphone-pic {
+.main-banner .container .wrapper-for-carousel .block-nub-one .banner-iphone-pic {
   max-width: 427px;
   display: flex;
   align-items: flex-end;
   margin-right: 94px;
 }
 
-.main-banner .container .banner-iphone-pic img {
+.main-banner .container .wrapper-for-carousel .block-nub-one .banner-iphone-pic img {
   width: 100%;
   display: inline-block;
+}
+
+.first-card {
+  padding: 75px 10px 0;
+  text-align: center;
+}
+
+.first-card h2 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.first-card p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 55px;
+}
+
+.first-card .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-card .container .col-3 {
+  width: 312px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  padding: 114px 0 0;
+}
+
+.first-card .container .col-3 .link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.first-card .container .col-3 h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.first-card .container .col-3 p {
+  font-family: 'Readex Pro',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.first-card .container .col-2 {
+  background-color: #FFFFFF;
+  width: 312px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  padding: 114px 0 0 16px;
+}
+
+.first-card .container .col-2 .link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.first-card .container .col-2 h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.first-card .container .col-2 p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.first-card .container .col-2 .iphone-img-card-three {
+  max-width: 405px;
+  margin-bottom: 42px;
+}
+
+.first-card .container .col-2 .iphone-img-card-three > img {
+  width: 100%;
+  display: inline-block;
+}
+
+.first-card .container .card-num-two {
+  background: #FFFFFF;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  max-width: 639px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 42px;
+  align-items: center;
+}
+
+.first-card .container .card-num-two .link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.first-card .container .card-num-two .art-card-two {
+  display: inline-block;
+}
+
+.first-card .container .card-num-two .art-card-two h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+
+.first-card .container .card-num-two .art-card-two p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
+}
+
+.first-card .container .card-num-two .watches-img {
+  max-width: 381px;
+}
+
+.first-card .container .card-num-two .watches-img > img {
+  width: 100%;
+  display: inline-block;
+}
+
+.first-card .container .card-nub-one {
+  max-width: 639px;
+  background: #FFFFFF;
+  padding: 0 42px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  margin-bottom: 72px;
+}
+
+.first-card .container .card-nub-one .link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.first-card .container .card-nub-one .laptopm-img {
+  max-width: 639px;
+}
+
+.first-card .container .card-nub-one .laptopm-img > img {
+  width: 100%;
+  display: inline-block;
+}
+
+.first-card .container .card-nub-one > h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+
+.first-card .container .card-nub-one > p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
 }
 
 tml,
@@ -270,6 +481,18 @@ body {
   }
 }
 
+@media screen and (max-width: 1179px) {
+  .main-banner .container .wrapper-for-carousel .block-nub-one {
+    display: flex;
+  }
+  .main-banner .container .wrapper-for-carousel .block-nub-one .banner-iphone-pic {
+    align-items: center;
+  }
+  .main-banner .container .wrapper-for-carousel .block-nub-one .article-main-banner {
+    max-width: 400px;
+  }
+}
+
 @media screen and (max-width: 1108px) {
   .main-banner .container .article-main-banner {
     max-width: 400px;
@@ -300,7 +523,7 @@ body {
   .main-banner .container {
     padding-right: 56px;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     flex-wrap: wrap;
     background-color: transparent;
     background-image: url(../images/iphones-background.png);
@@ -350,7 +573,7 @@ body {
 }
 
 .container {
-  max-width: 1294px;
+  max-width: 1314px;
   margin: auto;
 }
 

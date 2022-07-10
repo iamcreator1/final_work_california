@@ -29,6 +29,26 @@
   }
 }
 
+@media screen and (max-width: 1179px) {
+
+  .main-banner {
+    .container {
+      .wrapper-for-carousel {
+        .block-nub-one {
+          display: flex;
+          .banner-iphone-pic {
+            align-items: center;
+          }
+          .article-main-banner {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 @media screen and (max-width: 1108px) {
   .main-banner {
     .container {
@@ -84,7 +104,7 @@
     .container {
       padding-right: 56px;
       align-items: center;
-      height: 100vh;
+      height: 80vh;
       .article-main-banner {
         max-width: 588px;
         
