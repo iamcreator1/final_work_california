@@ -2,73 +2,316 @@
 
   padding: 0 10px;
 
-  height: 100vh;
+  height: 80vh;
+  margin-bottom: 28px;
+
+
 
   .container {
 
+    .wrapper-for-carousel {
 
-    
-    
-    border-radius: 32px;
+      .block-nub-one {
+
+        border-radius: 32px;
+        display: flex;
+        background-color: #DCE5E2;
+        justify-content: space-between;
+        position: relative;
+        justify-content: space-between;
+
+        .article-main-banner {
+
+          max-width: 588px;
+          margin-top: 145px;
+          margin-left: 56px;
+
+          h1 {
+            font-family: 'Readex Pro', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 58px;
+            line-height: 70px;
+            color: #000000;
+            margin-bottom: 19px;
+          }
+
+          p {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin-bottom: 55px;
+          }
+
+          .btn-main-banner {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #000000;
+            width: 170px;
+            padding: 14px 53px;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+            border-radius: 200px;
+            display: inline-block;
+            margin-bottom: 127px;
+          }
+        }
+
+        .banner-iphone-pic {
+          max-width: 427px;
+          display: flex;
+          align-items: flex-end;
+          margin-right: 94px;
+
+          img {
+            width: 100%;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// ? first section with card 
+
+
+.first-card {
+  padding: 75px 10px 0;
+
+  text-align: center;
+
+  h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+
+  p {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+  }
+
+  .container {
     display: flex;
-    background-color: #DCE5E2;
     justify-content: space-between;
-    position: relative;
 
 
-    .article-main-banner {
-      max-width: 588px;
-      margin-top: 145px;
-      margin-left: 56px;
+    .col-3 {
 
-      h1 {
-        font-family: 'Readex Pro', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 58px;
-        line-height: 70px;
-        color: #000000;
-        margin-bottom: 19px;
+      .link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
       }
 
-      p {
+      width: 312px;
+      background-color: #FFFFFF;
+      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+      padding: 114px 0 0;
+
+      h3 {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
+        text-align: center;
         color: #000000;
-        margin-bottom: 55px;
       }
 
-      .btn-main-banner {
+      p {
+        font-family: 'Readex Pro',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 42px;
+      }
+
+    }
+
+
+    .col-2 {
+
+      .link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      background-color: #FFFFFF;
+      width: 312px;
+      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+      padding: 114px 0 0 16px;
+
+      h3 {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        text-transform: capitalize;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
         color: #000000;
-        width: 170px;
-        padding: 14px 53px;
-        box-sizing: border-box;
-        border: 1px solid #000000;
-        border-radius: 200px;
-        display: inline-block;
-        margin-bottom: 127px;
+      }
+
+      p {
+        font-family: 'Readex Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #000000;
+      }
+
+
+      .iphone-img-card-three {
+        max-width: 405px;
+        margin-bottom: 42px;
+
+        >img {
+          width: 100%;
+          display: inline-block;
+        }
       }
     }
 
-    .banner-iphone-pic {
-      max-width: 427px;
+
+
+    .card-num-two {
+      background: #FFFFFF;
+      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+      max-width: 639px;
       display: flex;
-      align-items: flex-end;
-      margin-right: 94px;
+      justify-content: space-between;
+      padding: 0 42px;
 
-      img {
-        width: 100%;
+      .link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+
+
+
+      align-items: center;
+
+
+      .art-card-two {
+
         display: inline-block;
+
+        h3 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 19px;
+          text-align: right;
+          color: #000000;
+        }
+
+        p {
+          font-family: 'Readex Pro', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 38px;
+          text-align: right;
+          color: #000000;
+        }
+      }
+
+
+      .watches-img {
+        max-width: 381px;
+
+        >img {
+          width: 100%;
+          display: inline-block;
+        }
       }
     }
+
+
+
+    .card-nub-one {
+      max-width: 639px;
+      background: #FFFFFF;
+      padding: 0 42px;
+      filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+      margin-bottom: 72px;
+
+      .link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+
+      .laptopm-img {
+        max-width: 639px;
+
+        >img {
+          width: 100%;
+          display: inline-block;
+        }
+      }
+
+      >h3 {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: right;
+        color: #000000;
+      }
+
+      >p {
+        font-family: 'Readex Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: right;
+        color: #000000;
+      }
+    }
+
+
   }
 }
+
+
+// ? section shop cards
+
+
